@@ -1,0 +1,12 @@
+[project]
+name = "python-example"
+version = "0.1.0"
+description = "A tiny to-do list CLI example managed with uv"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
